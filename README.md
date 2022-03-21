@@ -1,14 +1,14 @@
-# Learing SQL with Postgres Database
+# Learning SQL with Postgres Database
 
 ## Overview of the analysis
 
-Write SQL queries to analyze the data available in tables (employees, dept_emp, titles etc.) and also create new tables using INTO statements to deteremine and prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age 
+Write SQL queries to analyze the data available in tables (employees, dept_emp, titles etc.) and also create new tables using INTO statements to determine and prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age 
   1. the number of retiring employees per title
   2. identify employees who are eligible to participate in a mentorship program
 
 ## Results
 
-1. We were able to determine the employees retiring with thier titles ansd stored them in retirement_titles table and then exported to retirement_titles.csv file.
+1. We were able to determine the employees retiring with their titles and stored them in retirement titles table and then exported to retirement_titles.csv file.
 
 ![image](https://user-images.githubusercontent.com/98173091/159192212-96f1fb91-89ca-417b-a4fc-85e99923190c.png)
 
@@ -20,13 +20,13 @@ Write SQL queries to analyze the data available in tables (employees, dept_emp, 
 
 ![image](https://user-images.githubusercontent.com/98173091/159192422-5047d6f9-dd2d-42ca-be98-8b405fb8fdf4.png)
 
-3. Next query is to determine the count of titles that will retire, and provide Bobby's manager a very cler picture of how many employes are going to retire in each title
+3. Next query is to determine the count of titles that will retire, and provide Bobby's manager a very clear picture of how many employees are going to retire in each title
 
 ![image](https://user-images.githubusercontent.com/98173091/159192492-2a75b7c5-46e1-415e-b9ac-0ad8a7b6449a.png)
 
 ![image](https://user-images.githubusercontent.com/98173091/159192520-43904513-052a-488a-8ba4-384c46d8bf59.png)
 
-4. Last piece of data analysis was to determine lsi of emplpyees eligible for mentorship program based the birth age. For this we INNER joined the following tables on emp_no which was the primary key on alll three tables.
+4. Last piece of data analysis was to determine list of employees eligible for mentorship program based the birth age. For this we INNER joined the following tables on emp_no which was the primary key on all three tables.
    Employees
    Dept_Emp
    Titles
@@ -38,7 +38,7 @@ Write SQL queries to analyze the data available in tables (employees, dept_emp, 
 
 ## Summary
 
-Booby's manager needed our help to gather the some actionable data for the following
+Booby's manager needed our help to gather some actionable data for the following
 
     1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
       This was determined during the count of titles that will retire. Following is the table that gives 
@@ -51,9 +51,6 @@ Booby's manager needed our help to gather the some actionable data for the follo
       It appears the # of retirement-ready employees in the departments to mentor the next generation is quite less, 
       we did a count of employees in each title that are  eligible for mentorship program and the ratio is skewed.
       For example, for 25916 Senior Engineer that will retire we have only 529 to mentor the next generation based on 
-      the age criteris of born betwen Jan 01, 1965 and Dec 31, 1965
+      the age criteria of born between Jan 01, 1965 and Dec 31, 1965
       
 ![image](https://user-images.githubusercontent.com/98173091/159193158-0b9d6b28-3b42-4440-b4f2-b199833007f8.png)
-
-    
-
