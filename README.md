@@ -48,9 +48,9 @@ Booby's manager needed our help to gather some actionable data for the following
       
     2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation 
     of Pewlett Hackard employees?
-      It appears the # of retirement-ready employees in the departments to mentor the next generation is quite less, 
-      we did a count of employees in each title that are  eligible for mentorship program and the ratio is skewed.
-      For example, for 25916 Senior Engineer that will retire we have only 529 to mentor the next generation based on 
-      the age criteria of born between Jan 01, 1965 and Dec 31, 1965
+      It appears the # of retirement-ready employees in the departments to mentor the next generation is quite 
+      less, we did a count of employees in each title that are  eligible for mentorship program and the ratio 
+      is skewed.       For example, for 25916 Senior Engineer that will retire we have only 529 to mentor the
+      next generation based on the age criteria of born between Jan 01, 1965 and Dec 31, 1965
       
 ![image](https://user-images.githubusercontent.com/98173091/159193158-0b9d6b28-3b42-4440-b4f2-b199833007f8.png)
